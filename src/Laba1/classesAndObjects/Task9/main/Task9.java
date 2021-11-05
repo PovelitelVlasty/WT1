@@ -7,14 +7,9 @@ import Laba1.classesAndObjects.Task9.utils.Color;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * Task9 class
- */
+
 public class Task9 {
-    /**
-     * Main method
-     * @param args
-     */
+    
     public static void main(String[] args) {
         ArrayList<Ball> balls = new ArrayList<Ball>(Arrays.asList(
                 new Ball(0.50, Color.GREEN),

@@ -3,14 +3,9 @@ package Laba1.classesAndObjects.Task13.main;
 import Laba1.classesAndObjects.Task13.utils.Book;
 import Laba1.classesAndObjects.Task13.utils.ProgrammerBook;
 
-/**
- * Task13 class
- */
+
 public class Task13 {
-    /**
-     * Main method
-     * @param args
-     */
+    
     public static void main(String[] args) {
         Book book1 = new Book("Harry Potter", "J. Rowling", 10);
         ProgrammerBook programmerBook1 = new ProgrammerBook("Java. A Beginner's Guide", "H. Shildt", 20, "Java", 3);

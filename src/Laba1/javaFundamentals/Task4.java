@@ -2,40 +2,29 @@ package Laba1.javaFundamentals;
 
 import java.util.Scanner;
 
-/**
- * Task4 class
- */
+
 public class Task4 {
-    /**
-     * Input array size
-     * @return int
-     */
+    
     public static int inputN() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Input N: ");
-        return scanner.nextInt();
+        return scan.nextInt();
     }
 
-    /**
-     * Input array
-     * @param size - size of array
-     * @return int[]
-     */
+    
     public static int[] inputArray(int size) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Input numbers: ");
 
         int[] array = new int[size];
         for (int i = 0; i < size; i++) {
-            array[i] = scanner.nextInt();
+            array[i] = scan.nextInt();
         }
 
         return array;
     }
 
-    /**
-     * Print results
-     */
+    
     public static void printResult() {
         int[] array = inputArray(inputN());
 
@@ -58,11 +47,7 @@ public class Task4 {
         }
     }
 
-    /**
-     * Check the number for simplicity
-     * @param number - number
-     * @return boolean
-     */
+    
     private static boolean isPrime(int number) {
         for (int i = 2; i < number / 2 + 1; i++) {
             if (number % i == 0) {
@@ -73,10 +58,7 @@ public class Task4 {
         return true;
     }
 
-    /**
-     * Main method
-     * @param args
-     */
+    
     public static void main(String[] args) {
         System.out.println("-----Task 4-----");
         printResult();

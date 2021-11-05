@@ -5,13 +5,9 @@ import Laba1.classesAndObjects.Task12_14_15_16.utils.BookComparator;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-/**
- * Tasks 12, 14, 15, 16 class
- */
+
 public class Task12_14_15_16 {
-    /**
-     * Print results of task 12
-     */
+    
     public static void printTask12() {
         Book book1 = new Book("Harry Potter", "J. Rowling", 10, 1);
         Book book2 = new Book("Harry Potter", "J. Rowling", 10, 1);
@@ -24,9 +20,7 @@ public class Task12_14_15_16 {
         System.out.println("book1.equals(book3) = " + book1.equals(book3));
     }
 
-    /**
-     * Print results of task 14
-     */
+    
     public static void printTask14() {
         Book book1 = new Book("Harry Potter", "J. Rowling", 10, 1);
 
@@ -35,9 +29,7 @@ public class Task12_14_15_16 {
         System.out.println("clonedBook1.toString() = " + clonedBook1.toString());
     }
 
-    /**
-     * Print results of task 15
-     */
+    
     public static void printTask15() {
         Book book1 = new Book("Harry Potter", "J. Rowling", 10, 1);
         Book book3 = new Book("Kolobok", "Narodnaya", 1, 3);
@@ -46,9 +38,7 @@ public class Task12_14_15_16 {
         System.out.println("book3.compareTo(book1) = " + book3.compareTo(book1));
     }
 
-    /**
-     * Print results of task 16
-     */
+    
     public static void printTask16() {
         Book book1 = new Book("Harry Potter", "J. Rowling", 9, 1);
         Book book2 = new Book("Harry Potter", "J. Rowling", 10, 1);
@@ -87,10 +77,7 @@ public class Task12_14_15_16 {
         }
     }
 
-    /**
-     * Main method
-     * @param args - command line arguments
-     */
+   
     public static void main(String[] args) {
         printTask12();
         printTask14();
