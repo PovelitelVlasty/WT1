@@ -1,0 +1,6 @@
+Command to assemble - jar -cmf manifest.mf task9.jar -C bin .
+Command to run - java -jar task9.jar
+
+manifest.mf
+main-class: Laba1.classesAndObjects.Task9.main.Task9
+class-path: bin/

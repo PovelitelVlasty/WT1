@@ -1,0 +1,2 @@
+main-class: Laba1.classesAndObjects.Task9.main.Task9
+class-path: bin/

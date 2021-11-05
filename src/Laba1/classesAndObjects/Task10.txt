@@ -1,0 +1,5 @@
+Task 10. 
+Command to compile - javac {FILE_NAME}.java
+Command I use - javac .\src\Laba1\classesAndObjects\Task9\main\Task9.java .\src\Laba1\classesAndObjects\Task9\utils\Ball.java .\src\Laba1\classesAndObjects\Task9\utils\Busket.java .\src\Laba1\classesAndObjects\Task9\utils\Color.java -d .\src\Laba1\classesAndObjects\Task9\bin
+
+Command to execute I use - java -classpath .\src\Laba1\classesAndObjects\Task9\bin Laba1.classesAndObjects.Task9.main.Task9 
